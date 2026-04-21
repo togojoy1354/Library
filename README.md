@@ -1,4 +1,4 @@
-# NavSphere - 内容导航管理平台 
+# Library - 内容导航管理平台 
 
 <p align="center">
   <strong>现代化的内容导航管理平台 | 视频导航 + 网址导航</strong>
@@ -9,15 +9,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tianyaxiang/NavSphere/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/tianyaxiang/NavSphere?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/togojoy1354/Library?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/togojoy1354/Library?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/togojoy1354/Library?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/togojoy1354/Library?style=flat-square"></a>
 </p>
 
 ## 📖 项目简介
 
-NavSphere 是一个基于 Next.js 15 构建的现代化导航管理平台，集成了**视频导航**和**网址导航**两大核心功能。专为内容收藏、分类和管理而设计，通过 GitHub 作为数据存储后端，提供安全、可靠的导航数据管理体验。
+Library 是一个基于 Next.js 15 构建的现代化导航管理平台，集成了**视频导航**和**网址导航**两大核心功能。专为内容收藏、分类和管理而设计，通过 GitHub 作为数据存储后端，提供安全、可靠的导航数据管理体验。
 
 ### 双核心功能
 
@@ -114,8 +114,8 @@ NavSphere 是一个基于 Next.js 15 构建的现代化导航管理平台，集�
 
 1. **克隆项目**
 ```bash
-git clone https://github.com/tianyaxiang/NavSphere.git
-cd NavSphere
+git clone https://github.com/togojoy1354/Library.git
+cd Library
 ```
 
 2. **安装依赖**
@@ -174,7 +174,7 @@ GA_ID=your-google-analytics-id
    - 点击 "New OAuth App"
    - 填写应用信息：
      ```
-     Application name: NavSphere
+     Application name: Library
      Homepage URL: http://localhost:3000
      Authorization callback URL: http://localhost:3000/api/auth/callback/github
      ```
@@ -187,7 +187,7 @@ GA_ID=your-google-analytics-id
 
 1. **创建数据仓库**
    - 访问 [GitHub New Repository](https://github.com/new)
-   - 仓库名建议: `navsphere-data`
+   - 仓库名建议: `Library-data`
    - 可选择 Public 或 Private
 
 2. **初始化数据文件**
@@ -384,7 +384,7 @@ pnpm run docker:prod
 ### 项目结构
 
 ```
-NavSphere/
+Library/
 ├── src/
 │   ├── app/                    # Next.js App Router
 │   │   ├── api/               # API 路由
@@ -406,7 +406,7 @@ NavSphere/
 │   │   ├── navigation.ts      # 导航类型
 │   │   └── video.ts          # 视频类型
 │   ├── services/              # 服务层
-│   └── navsphere/             # 数据文件
+│   └── Library/             # 数据文件
 │       └── content/
 │           ├── videos.json    # 视频数据
 │           ├── navigation.json # 网址导航数据
