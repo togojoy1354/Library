@@ -6,7 +6,7 @@ pages_build_output_dir = ".vercel/output/static"
 [env.production.vars]
 GITHUB_CLIENT_ID = "Ov23liWnGgWeVOUOFrmS"
 GITHUB_OWNER = "togojoy1354"
-GITHUB_REPO = "Library"
+GITHUB_REPO = "library"
 GITHUB_BRANCH = "main"
 NEXTAUTH_URL = "https://library-8su.pages.dev/api/auth"
 NEXT_PUBLIC_API_URL="https://library-8su.pages.dev"
