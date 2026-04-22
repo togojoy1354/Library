@@ -1,8 +1,8 @@
 
-# NavSphere
+# Library
 
 ## Overview
-NavSphere is a web application designed for managing navigation items and categories. It provides an intuitive interface for adding, editing, and organizing navigation entries, including site icons and descriptions.
+Library is a web application designed for managing navigation items and categories. It provides an intuitive interface for adding, editing, and organizing navigation entries, including site icons and descriptions.
 
 ## Features
 - **Add/Edit Navigation Items**: Easily add or modify navigation items with titles, links, icons, and descriptions.
@@ -19,7 +19,7 @@ NavSphere is a web application designed for managing navigation items and catego
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/tianyaxiang/NavSphere.git
+   git clone https://github.com/togojoy1354/Library.git
 
 ```bash
 npm run dev
