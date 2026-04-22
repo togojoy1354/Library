@@ -1,4 +1,4 @@
-# NavSphere - Video Navigation Platform
+# Library - Video Navigation Platform
 
 <p align="center">
   <strong>Modern Content Navigation Platform | Video Navigation + Website Navigation</strong>
@@ -9,15 +9,15 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tianyaxiang/NavSphere/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/tianyaxiang/NavSphere?style=flat-square"></a>
-  <a href="https://github.com/tianyaxiang/NavSphere/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/tianyaxiang/NavSphere?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/togojoy1354/Library?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/togojoy1354/Library?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/togojoy1354/Library?style=flat-square"></a>
+  <a href="https://github.com/togojoy1354/Library/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/togojoy1354/Library?style=flat-square"></a>
 </p>
 
 ## 📖 Introduction
 
-NavSphere is a modern navigation management platform built with Next.js 15, integrating **Video Navigation** and **Website Navigation** as core features. Designed for content collection, categorization, and management, it provides a secure and reliable navigation data management experience using GitHub as the data storage backend.
+Library is a modern navigation management platform built with Next.js 15, integrating **Video Navigation** and **Website Navigation** as core features. Designed for content collection, categorization, and management, it provides a secure and reliable navigation data management experience using GitHub as the data storage backend.
 
 ### Dual Core Features
 
@@ -114,8 +114,8 @@ Comprehensive website bookmark management system to help you collect and organiz
 
 1. **Clone the project**
 ```bash
-git clone https://github.com/tianyaxiang/NavSphere.git
-cd NavSphere
+git clone https://github.com/togojoy1354/Library.git
+cd Library
 ```
 
 2. **Install dependencies**
@@ -174,7 +174,7 @@ GA_ID=your-google-analytics-id
    - Click "New OAuth App"
    - Fill in application information:
      ```
-     Application name: NavSphere
+     Application name: Library
      Homepage URL: http://localhost:3000
      Authorization callback URL: http://localhost:3000/api/auth/callback/github
      ```
@@ -187,7 +187,7 @@ GA_ID=your-google-analytics-id
 
 1. **Create Data Repository**
    - Visit [GitHub New Repository](https://github.com/new)
-   - Suggested repository name: `navsphere-data`
+   - Suggested repository name: `Library-data`
    - Choose Public or Private
 
 2. **Initialize Data Files**
@@ -384,7 +384,7 @@ pnpm run docker:prod
 ### Project Structure
 
 ```
-NavSphere/
+Library/
 ├── src/
 │   ├── app/                    # Next.js App Router
 │   │   ├── api/               # API routes
@@ -406,7 +406,7 @@ NavSphere/
 │   │   ├── navigation.ts      # Navigation types
 │   │   └── video.ts          # Video types
 │   ├── services/              # Service layer
-│   └── navsphere/             # Data files
+│   └── Library/             # Data files
 │       └── content/
 │           ├── videos.json    # Video data
 │           ├── navigation.json # Website navigation data
